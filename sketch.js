@@ -13,6 +13,7 @@ function setup(){
 if(sound.isLoaded()){
 loadTime = millis();
 print(loadTime);
+userStartAudio();
 sound.play();
 }
 amp= new p5.Amplitude();
